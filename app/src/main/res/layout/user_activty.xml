@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Witaj, "
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="119dp"
+        android:layout_height="101dp"
+        android:layout_above="@+id/usernameTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginBottom="160dp"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/button_end"
+        android:layout_width="147dp"
+        android:layout_height="88dp"
+        android:layout_above="@+id/usernameTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="165dp"
+        android:text="End" />
+
+    <Button
+        android:id="@+id/button_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="140dp"
+        android:text="Users" />
+
+</RelativeLayout>
